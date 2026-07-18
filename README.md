@@ -99,4 +99,4 @@ Loss curves and generated sample grids can be found in `outputs/` after running 
 
 ## Notes
 
-The content was originally written for coursework, it was then further developed into a reusable, testable project structure.
+The content was originally written for coursework. It was then further developed into a reusable, testable project structure.
