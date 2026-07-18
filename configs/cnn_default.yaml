@@ -1,0 +1,7 @@
+epochs: 10
+batch_size: 64
+lr: 0.001
+data_root: ./data
+checkpoint_dir: ./outputs/cnn_models
+log_interval: 100
+seed: 42

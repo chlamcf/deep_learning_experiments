@@ -1,0 +1,9 @@
+epochs: 50
+batch_size: 128
+lr: 0.0002
+latent_dim: 100
+data_root: ./data
+output_dir: ./outputs/gan_images
+checkpoint_dir: ./outputs/gan_models
+log_interval: 100
+seed: 42

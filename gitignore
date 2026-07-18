@@ -1,0 +1,16 @@
+# Data & outputs
+data/
+outputs/
+*.pth
+*.pt
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.env
+.venv/
+venv/
+
+# OS
+.DS_Store
