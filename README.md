@@ -97,6 +97,6 @@ Loss curves and generated sample grids can be found in `outputs/` after running 
 - Add batch normalization, dropout, and data augmentation to the CNN, and benchmark against a small ResNet.
 - Extend both models to a harder dataset (Fashion-MNIST or CIFAR-10).
 
-## Acknowledgements
+## Notes
 
-Originally developed as coursework exercises exploring PyTorch fundamentals on the MNIST dataset, then refactored into a reusable, testable project structure.
+The content was originally written for coursework, then further developed into a reusable, testable project structure.
