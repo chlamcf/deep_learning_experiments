@@ -16,7 +16,7 @@ Two PyTorch implementations exploring generative and discriminative deep learnin
 ## Project structure
 
 ```
-mnist-deep-learning/
+deep_learning_experiments/
 ├── README.md
 ├── requirements.txt
 ├── src/
@@ -29,16 +29,15 @@ mnist-deep-learning/
 │   ├── gan_default.yaml
 │   └── cnn_default.yaml
 ├── tests/
-│   └── test_models.py    # shape/sanity unit tests
-└── notebooks/
-    └── demo.ipynb         # exploratory notebook / visualizations
+    └── test_models.py    # shape/sanity unit tests
+
 ```
 
 ## Setup
 
 ```bash
-git clone https://github.com/<your-username>/mnist-deep-learning.git
-cd mnist-deep-learning
+git clone https://github.com/chlamcf/deep_learning_experiments.git
+cd deep_learning_experiments
 python -m venv venv && source venv/bin/activate   # optional
 pip install -r requirements.txt
 ```
@@ -89,8 +88,7 @@ pytest tests/
 | CNN test loss (epoch 10) | 0.0282 |
 | GAN training epochs | 50 |
 
-Loss curves and generated sample grids can be found in `outputs/` after running the training scripts, or in `notebooks/demo.ipynb` for a walkthrough with inline plots.
-
+Loss curves and generated sample grids can be found in `outputs/` after running the training scripts.
 ## Possible extensions
 
 - Swap the GAN's fully-connected layers for convolutional/transposed-convolutional layers (DCGAN) for sharper, more stable image generation.
@@ -102,7 +100,3 @@ Loss curves and generated sample grids can be found in `outputs/` after running 
 ## Acknowledgements
 
 Originally developed as coursework exercises exploring PyTorch fundamentals on the MNIST dataset, then refactored into a reusable, testable project structure.
-
-## License
-
-MIT
