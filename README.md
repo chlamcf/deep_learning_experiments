@@ -29,7 +29,7 @@ deep_learning_experiments/
 │   ├── gan_default.yaml
 │   └── cnn_default.yaml
 ├── tests/
-    └── test_models.py    # shape/sanity unit tests
+    └── test_models.py     # shape/sanity unit tests
 
 ```
 
