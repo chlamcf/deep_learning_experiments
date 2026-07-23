@@ -20,9 +20,9 @@ deep_learning_experiments/
 ├── README.md
 ├── requirements.txt
 ├── src/
-│   ├── models.py        # Generator, Discriminator, MNISTCNN
-│   ├── data.py           # DataLoader helpers
-│   ├── utils.py          # logging, seeding, checkpointing
+│   ├── models.py          # Generator, Discriminator, MNISTCNN
+│   ├── data.py            # DataLoader helpers
+│   ├── utils.py           # logging, seeding, checkpointing
 │   ├── train_gan.py       # GAN training entry point
 │   └── train_cnn.py       # CNN training entry point
 ├── configs/
@@ -38,7 +38,7 @@ deep_learning_experiments/
 ```bash
 git clone https://github.com/chlamcf/deep_learning_experiments.git
 cd deep_learning_experiments
-python -m venv venv && source venv/bin/activate   # optional
+python -m venv venv && source venv/bin/activate
 pip install -r requirements.txt
 ```
 
